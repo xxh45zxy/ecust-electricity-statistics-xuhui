@@ -143,7 +143,7 @@ def pushplus(text: str | None) -> None:
             print(text)
         else:
             sendMsgToWechat(
-                PUSH_PLUS_TOKEN, f"{get_date()}华理电费统计", text, "markdown"
+                PUSH_PLUS_TOKEN, f"{get_date()}华理徐汇电费统计", text, "markdown"
             )
         logging.info("push plus executed successfully")
 
